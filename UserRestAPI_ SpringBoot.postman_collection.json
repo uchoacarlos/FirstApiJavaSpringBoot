@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "55ed9a7d-cee2-4cdc-93d6-9bcd4a892d2c",
+		"name": "UserRestAPI_ SpringBoot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Verificar Servidor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/status",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adicionar Usuário ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 3,\r\n    \"nome\":\"João\",\r\n    \"email\": \"joao@gmail.com\",\r\n    \"senha\": 123456\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/usuario/salvar",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"usuario",
+						"salvar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Usuário",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/usuario/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"usuario",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Usuários",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/listar",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Usuário",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/usuario/deletar/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"usuario",
+						"deletar",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Usuário",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/usuario/deletar/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"usuario",
+						"deletar",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

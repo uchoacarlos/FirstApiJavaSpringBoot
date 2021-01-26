@@ -1,4 +1,4 @@
-package firstSpringbootProject.tutorial.rest.api;
+package firstSpringbootProject.tutorial.rest.api.controller;
 
 import firstSpringbootProject.tutorial.rest.api.model.UsuarioModel;
 import firstSpringbootProject.tutorial.rest.api.repository.UsuarioRepository;
