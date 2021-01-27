@@ -95,27 +95,6 @@
 		{
 			"name": "Deletar Usuário",
 			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/usuario/deletar/3",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"usuario",
-						"deletar",
-						"3"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Deletar Usuário",
-			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
